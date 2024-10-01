@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <style>
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0;
+}
+
+.container {
+    margin-top: 50px;
+    width: 400px;
+    text-align: center;
+    
+}
+
+
+.logo img {
+    width: 150px;
+
+}
+
+.signin-form {
+    border: 1px solid #ddd;
+    padding: 20px;
+    
+    border-radius: 5px;
+}
+
+.signin-form h1 {
+    font-family: ' sans-serif';
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.signin-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.signin-form input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.signin-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+.signin-form button a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+ 
+.signin-form button:hover {
+    background: rgb(255, 238, 0);
+}
+
+.signin-form p {
+    font-size: 12px;
+}
+
+.signin-form .help-link {
+    display: block;
+    margin-top: 10px;
+}
+
+.signin-form .help-link:hover {
+    color: orangered;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.business-link {
+    font-size: 14px;
+    color: #007185;
+}
+.business-link:hover {
+    color: orangered;
+}
+
+.create-account-button {
+    display: inline-block;
+    width: 80%;
+    padding: 10px;
+    padding-left: 30px;
+    background-color: #e7e9ec;
+    border: 1px solid #adb1b8;
+    border-radius: 3px;
+    color: #111;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.create-account-button:hover {
+    background-color: antiquewhite;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    margin: 0 30px;
+    font-size: 12px;
+    color: #007185;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: orangered;
+}
+
+footer p {
+    font-size: 12px;
+    color: #555;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <a href="index.html"><img src="https://www.freepnglogos.com/uploads/amazon-png-logo-vector/amazon-salary-png-logo-vector-5.png"></a>
+        </div>
+        <div class="signin-form">
+            <h1>Sign in</h1>
+            <form action="#">
+                <label for="email">Email or mobile phone number</label>
+                <input type="text" id="email" name="email" required>
+                <!-- <label for="password">Email or mobile phone number</label>
+                <input type="password" id="email" name="email" required> -->
+                <button type="submit"><a href="index.html">Continue</a></button>
+                <p>By continuing, you agree to Amazon's <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice</a>.</p>
+                <a href="#" class="help-link">Need help?</a>
+            </form>
+            <hr>
+            <a href="#" class="business-link">Buying for work? <strong>Shop on Amazon Business</strong></a>
+            <hr>
+            <a href="createac.html" class="create-account-button">Create your Amazon account</a>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-links">
+            <a href="#">Conditions of Use</a>
+            <a href="#">Privacy Notice</a>
+            <a href="#">Help</a>
+        </div>
+        <p>&copy; 1996-2024, Amazon.com, Inc. or its affiliates</p>
+    </footer>
+</body>
+</html>
